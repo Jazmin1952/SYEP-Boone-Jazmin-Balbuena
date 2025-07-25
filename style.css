@@ -18,3 +18,20 @@ body{
     color:rgb(2, 80, 54)
 }
 
+@media (max-width: 768px){
+    body{background-color:orange}
+}
+
+.grid{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap:wrap;
+}
+
+.grid div{
+    background-color: rgb(88, 255, 199);
+    border-radius: 1000px;
+    padding: 5px; 
+    min-width: 80px;
+}
